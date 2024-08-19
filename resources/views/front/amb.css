@@ -1,0 +1,176 @@
+.wpcf7-form p{
+	text-align:center;
+}
+#btn{
+	background:orange;
+}
+
+.shop-area .product-holder{
+	margin-bottom:30px;
+}
+.price_label{
+	font-size:10px;
+}
+
+/* Hasin */
+
+  .header .header-date {
+    font-size: 14px;
+    color: #4D4D4D;
+    font-weight: 500;
+		position: absolute;
+    margin-top: -122px;
+    margin-left: 585px;
+}  
+ 
+ .header__language.style-2 {
+	display: none;
+} 
+
+ .header__social {
+    position: absolute;
+    margin-left: -173px;
+    margin-top: -126px;
+} 
+
+ .main-menu__nav ul {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-left: 201px;
+    position: absolute;
+	margin-top: -201px;
+} 
+
+ .header__category-nav {
+    color: var(--color-white);
+    background-color: var(--color-primary);
+    padding: 10px;
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    width: 100%;
+    margin-left: 203px;
+    margin-top: -127px;
+}
+
+ .login-sign-btn a {
+    padding: 13px 18px;
+    font-size: 14px;
+    text-transform: capitalize;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    margin-top: -126px;
+    position: absolute;
+    margin-left: -142px;
+} 
+
+
+ .header__search {
+    max-width: 255px;
+    position: absolute;
+    margin-top: -203px;
+    margin-left: -416;
+} 
+
+ div.header__icons.ul_li.mr-15
+{
+	margin-top:-207px;
+	margin-right: 142px;
+} 
+
+ .slider-one {
+    position: relative;
+    padding: 200px 0px 160px;
+    background-size: cover;
+    margin-top: -144px;
+}
+ 
+ .category-nav__list {
+    background-color: var(--color-white);
+    border: 1px solid #E5E5E5;
+    box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.05);
+    width: 100%;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    padding: 10px 0;
+    padding-bottom: 20px;
+    margin-top: -134px;
+    margin-left: 203px;
+} 
+/*  new */
+
+
+@media only screen and (max-width: 768px) {
+    .slider-one {
+			position: relative;
+        margin-top: -80px; 
+    }
+	
+	div.header__middle.ul_li_between img {
+		display: inline-block !important;
+	
+		visibility: visible !important;
+	
+	}
+}
+
+
+/* 
+div.header__middle.ul_li_between img
+{
+ background-color: red;
+} */
+
+
+.business-block_one-image img {
+    position: relative;
+    width: 100%;
+    display: block;
+    height: 400px;
+}
+
+.product-block_two-brand {
+    position: relative;
+    font-size: 14px;
+    font-weight: 700;
+    color: #484848;
+    padding-left: 35px;
+    text-transform: capitalize;
+    display: none;
+}
+
+.image img{
+	height:300px;
+}
+@media(max-width:1200px){
+	.header__icons{
+		margin:0px !important;
+		position:absolute;
+		top:90px;
+		right:200px;
+	}
+	.header__search{
+		margin:0px !important;
+		top:80px;
+		right:30px;
+		max-width: 130px !important;
+	}
+}
