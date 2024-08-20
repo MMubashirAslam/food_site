@@ -584,7 +584,7 @@ document.getElementById('move-right').addEventListener('click', () => {
 });
 
 window.addEventListener('resize', updateButtons);
-
+ 
 // Initial call to set button states
 updateButtons();
         </script> --}}

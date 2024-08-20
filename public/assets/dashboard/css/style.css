@@ -109,7 +109,7 @@ aside{
     justify-content: space-around;
     align-items: center;
     display: none;
-    opacity: 0;
+    opacity: 0;  
     visibility: hidden;
     transition: opacity 0.5s ease, visibility 0.5s ease;
     padding-bottom: 5px; /* Space for the progress bar */
